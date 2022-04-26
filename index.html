@@ -1,0 +1,40 @@
+
+<h1>Olá</h1>
+
+<script>
+    // Outputs
+    // alert()
+    //console.log('TESTE')
+    //document.write('nutela')
+
+    // inputs
+    //prompt 
+
+
+
+    var a = prompt('Digite seu nome.');
+
+    alert('Bem vindo Sr(a) ' + a);
+
+    var nota1 = prompt('Digite sua primeira nota');
+    var nota2 = prompt('Digite sua segunda nota');
+    var nota3 = prompt('Digite sua terceira nota');
+
+    var notafinal = (parseFloat(nota1)+
+                    parseFloat(nota2)+
+                    parseFloat(nota3));
+
+    var media = notafinal /  3;
+
+    document.write("A Soma das notas é " + notafinal + "<br>") 
+    
+
+    document.write("A Média das notas é " + media + "<br>")
+
+    if(media < 6) {
+    document.write('Fracassado')  
+    }else {
+        document.write('Aprovado') 
+    }
+   
+</script>
